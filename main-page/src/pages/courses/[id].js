@@ -98,6 +98,19 @@ function DetailsCourse({ data }) {
                         </div>
                     </CSSTransition>
                 </div>
+                <div className='w-3/4 mx-auto mt-8'>
+                    <div className='w-3/4'>
+                        <section>
+                            <h6 className='font-medium text-gray-900 text-2xl mb-4'>
+                                About
+                                <span className='text-teal-500'> Course</span>
+                            </h6>
+                            <p className='text-gray-600 text-lg leading-relaxed mb-3'>
+                                {data?.description ?? 'No Description Found'}
+                            </p>
+                        </section>
+                    </div>
+                </div>
             </section>
             <section className={'mt-24 bg-indigo-1000 py-12'} ref={footer}>
                 <Footer></Footer>

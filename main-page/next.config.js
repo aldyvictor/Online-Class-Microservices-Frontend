@@ -19,14 +19,3 @@ module.exports = async () => {
         [withImages, {}],
     ]);
 };
-
-module.exports = {
-    async rewrites() {
-        return [
-            {
-                source: '/api/:path*',
-                destination: 'https://ee9b-203-190-54-83.ap.ngrok.io/:path*',
-            },
-        ];
-    },
-};

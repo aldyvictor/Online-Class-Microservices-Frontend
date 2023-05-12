@@ -9,7 +9,7 @@ export default function ItemCourse({ item }) {
         <div className={'w-1/4 px-4'}>
             <div className={'item relative'}>
                 <figure className={'item-image mb-2'}>
-                    <IconPlay className={'icon-play'}></IconPlay>
+                    <IconPlay className={'icon'}></IconPlay>
                     <img src={item?.thumbnail ?? '-'} alt={item?.name ?? 'Thumbnail Courses'} className={'w-full'} />
                 </figure>
                 <div className='item-meta'>

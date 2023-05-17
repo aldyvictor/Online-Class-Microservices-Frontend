@@ -146,7 +146,7 @@ module.exports = {
             slate: colors.slate,
             gray: {
                 50: '#f9fafb',
-                100: '#f3f4f6',
+                100: '#F7F7F7',
                 200: '#e8f0fa',
                 300: '#DBDBDB',
                 400: '#9ca3af',
